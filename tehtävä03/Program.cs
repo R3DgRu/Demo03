@@ -10,8 +10,9 @@ namespace tehtävä03
     {
         static void Main(string[] args)
         {
-            Televisio televisio = new Televisio();
+            Televisio televisio = new Televisio(); // uuden television luonti
 
+            // töllön speksit kirjataan ylös
             televisio.Merkki = "LG";
             televisio.Väri = "Hopea";
             televisio.Paino = "65 Kg";
@@ -20,6 +21,7 @@ namespace tehtävä03
             televisio.Resoluutio = "4096 x 2160 pikselia";
             televisio.Käyttöjärjestelmä = "Android TV";
 
+            // varsinainen tulostus
             televisio.Menu();
             televisio.Speksit();
         }

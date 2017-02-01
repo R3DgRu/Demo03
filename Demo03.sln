@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävä02", "tehtävä02\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävä03", "tehtävä03\tehtävä03.csproj", "{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävä04", "tehtävä04\tehtävä04.csproj", "{5589BE34-1970-4A17-89E9-A8563E36CC43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5589BE34-1970-4A17-89E9-A8563E36CC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5589BE34-1970-4A17-89E9-A8563E36CC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5589BE34-1970-4A17-89E9-A8563E36CC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5589BE34-1970-4A17-89E9-A8563E36CC43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
