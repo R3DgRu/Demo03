@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeaterApplication", "Heater
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävä02", "tehtävä02\tehtävä02.csproj", "{3DA853BC-9450-4B5D-A02B-69172767CAEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtävä03", "tehtävä03\tehtävä03.csproj", "{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3DA853BC-9450-4B5D-A02B-69172767CAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DA853BC-9450-4B5D-A02B-69172767CAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DA853BC-9450-4B5D-A02B-69172767CAEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84BC6ABA-4503-43DC-A3DC-06E3B4656BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

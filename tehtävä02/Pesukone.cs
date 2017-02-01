@@ -13,22 +13,22 @@ namespace tehtävä02
         public int Valkopesu { get; set; }
         public int Linkous { get; set; }
 
-        public void Taytto()
+        public void Taytto() // pesukoneen täyttötoiminto
         {
             Console.WriteLine("Tayta pesukone");
         }
 
-        public void Kaynnistys()
+        public void Kaynnistys() // pesukoneen käynnistystoiminto
         {
             Console.WriteLine("Kaynnistys: lori lori, whhrrrrr");
         }
 
-        public void Tyhjennys()
+        public void Tyhjennys() // pesukoneen tyhjennystoiminto
         {
             Console.WriteLine("Tyhjenna pesukone");
         }
 
-        public void AsetuksetTulostus()
+        public void AsetuksetTulostus() // toiminto pesuohjelmien tulostukseen
         {
             Console.WriteLine("Pesukoneen asetukset");
             Console.WriteLine("Kirjopesu: {0} C", Kirjopesu );
