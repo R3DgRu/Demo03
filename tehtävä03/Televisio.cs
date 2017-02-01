@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tehtävä03
 {
-    class Televisio
+    class Televisio // televisioluokka
     {
         public string Merkki {get; set;}
         public string Väri { get; set; }
@@ -14,12 +14,23 @@ namespace tehtävä03
         public string Paneelinkoko { get; set; }
         public string Resoluutio { get; set; }
         public string Käyttöjärjestelmä { get; set; }
-        public double Paino { get; set; }
+        public string Paino { get; set; }
 
-        public void VirtaOn() // tv:n käynnistys toiminto
+        public void Menu() // tv:n käynnistystoiminto
         {
-            Console.WriteLine("Käynnistys...");
+            Console.WriteLine("Asetukset > Järjestelmä > Tietoja > ");
         }
-
+        public void Speksit() // ominaisuuksien tulostus-systeemi
+        {
+            Console.WriteLine("------ Television ominaisuudet ------");
+            Console.WriteLine("- Merkki: " + Merkki);
+            Console.WriteLine("- Väri: " + Väri);
+            Console.WriteLine("- Paino: " + Paino);
+            Console.WriteLine("- Paneelin tyyppi: " + Paneelityyppi);
+            Console.WriteLine("- Paneelin koko: " + Paneelinkoko);
+            Console.WriteLine("- Resoluutio: " + Resoluutio);
+            Console.WriteLine("- Käyttöjärjestelmä: " + Käyttöjärjestelmä);
+            
+        }
     }
 }
